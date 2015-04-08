@@ -1,0 +1,23 @@
+#wrap{
+	width: 500px;
+	border: 1px solid;
+	margin: auto;
+}
+
+#searchForm{
+  margin-top: 10px;
+	text-align: center;
+}
+
+#searchList  p{
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid;
+	padding: 5px;
+}
+
+#add{
+  margin-left: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
