@@ -1,4 +1,3 @@
-//https://apis.daum.net/search/web?apikey=b92bf6b09b6323db7f86d61f5295e070&q=카카오&output=json&collback=done
 var src;
 var pageCount=1;
 var searchWord;
@@ -21,7 +20,7 @@ function searchView(){
   pageCount+=1;
 }
 
-function getData(searchWord,count){
+function getData(searchWord){
   src="https://apis.daum.net/search/web?apikey=b92bf6b09b6323db7f86d61f5295e070&q="+searchWord+"&output=json&pageno=";
   return src
 }
