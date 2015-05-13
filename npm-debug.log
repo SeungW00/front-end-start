@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'pretty-bytes',
+1 verbose cli   '--globa' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json front-end-start@1.0.0 No description
+6 silly cache add args [ 'pretty-bytes@^1.0.4', null ]
+7 verbose cache add spec pretty-bytes@^1.0.4
+8 silly cache add parsed spec { raw: 'pretty-bytes@^1.0.4',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'pretty-bytes',
+8 silly cache add   rawSpec: '^1.0.4',
+8 silly cache add   spec: '>=1.0.4 <2.0.0',
+8 silly cache add   type: 'range' }
+9 verbose addNamed pretty-bytes@>=1.0.4 <2.0.0
+10 silly addNamed semver.valid null
+11 silly addNamed semver.validRange >=1.0.4 <2.0.0
+12 silly addNameRange { name: 'pretty-bytes', range: '>=1.0.4 <2.0.0', hasData: false }
+13 silly mapToRegistry name pretty-bytes
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/pretty-bytes
+17 verbose addNameRange registry:https://registry.npmjs.org/pretty-bytes not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/pretty-bytes
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 17:48:02
+21 verbose request id ab40b173d61de7bf
+22 verbose etag "A20CWKWKYPBY7MNO9WHO48ELE"
+23 http request GET https://registry.npmjs.org/pretty-bytes
+24 http 304 https://registry.npmjs.org/pretty-bytes
+25 silly get cb [ 304,
+25 silly get   { date: 'Thu, 07 May 2015 08:48:05 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     'last-modified': 'Thu, 07 May 2015 08:48:05 GMT',
+25 silly get     'cache-control': 'max-age=60',
+25 silly get     etag: '"A20CWKWKYPBY7MNO9WHO48ELE"',
+25 silly get     age: '6',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-nrt6135-NRT',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1430988485.635736,VS0,VE0',
+25 silly get     vary: 'Accept' } ]
+26 verbose etag https://registry.npmjs.org/pretty-bytes from cache
+27 verbose get saving pretty-bytes to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\pretty-bytes\.cache.json
+28 silly addNameRange number 2 { name: 'pretty-bytes', range: '>=1.0.4 <2.0.0', hasData: true }
+29 silly addNameRange versions [ 'pretty-bytes',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.4' ] ]
+30 verbose addNamed pretty-bytes@1.0.4
+31 silly addNamed semver.valid 1.0.4
+32 silly addNamed semver.validRange 1.0.4
+33 silly cache afterAdd pretty-bytes@1.0.4
+34 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\pretty-bytes\1.0.4\package\package.json not in flight; writing
+35 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\pretty-bytes\1.0.4\package\package.json written
+36 silly install resolved [ { name: 'pretty-bytes',
+36 silly install resolved     version: '1.0.4',
+36 silly install resolved     description: 'Convert bytes to a human readable string: 1337 → 1.34 kB',
+36 silly install resolved     license: 'MIT',
+36 silly install resolved     repository:
+36 silly install resolved      { type: 'git',
+36 silly install resolved        url: 'https://github.com/sindresorhus/pretty-bytes' },
+36 silly install resolved     main: 'pretty-bytes.js',
+36 silly install resolved     bin: { 'pretty-bytes': 'cli.js' },
+36 silly install resolved     author:
+36 silly install resolved      { name: 'Sindre Sorhus',
+36 silly install resolved        email: 'sindresorhus@gmail.com',
+36 silly install resolved        url: 'http://sindresorhus.com' },
+36 silly install resolved     engines: { node: '>=0.10.0' },
+36 silly install resolved     scripts: { test: 'mocha' },
+36 silly install resolved     files: [ 'pretty-bytes.js', 'cli.js' ],
+36 silly install resolved     keywords:
+36 silly install resolved      [ 'cli',
+36 silly install resolved        'bin',
+36 silly install resolved        'browser',
+36 silly install resolved        'pretty',
+36 silly install resolved        'bytes',
+36 silly install resolved        'byte',
+36 silly install resolved        'filesize',
+36 silly install resolved        'size',
+36 silly install resolved        'file',
+36 silly install resolved        'human',
+36 silly install resolved        'humanized',
+36 silly install resolved        'readable',
+36 silly install resolved        'si',
+36 silly install resolved        'data' ],
+36 silly install resolved     dependencies: { 'get-stdin': '^4.0.1', meow: '^3.1.0' },
+36 silly install resolved     devDependencies: { mocha: '*' },
+36 silly install resolved     gitHead: 'a1028d746f5aa51cdd6a22f1cae2b2e9ecc5b6df',
+36 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/pretty-bytes/issues' },
+36 silly install resolved     homepage: 'https://github.com/sindresorhus/pretty-bytes',
+36 silly install resolved     _id: 'pretty-bytes@1.0.4',
+36 silly install resolved     _shasum: '0a22e8210609ad35542f8c8d5d2159aff0751c84',
+36 silly install resolved     _from: 'pretty-bytes@>=1.0.4 <2.0.0',
+36 silly install resolved     _npmVersion: '2.5.1',
+36 silly install resolved     _nodeVersion: '0.12.0',
+36 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+36 silly install resolved     maintainers: [ [Object] ],
+36 silly install resolved     dist:
+36 silly install resolved      { shasum: '0a22e8210609ad35542f8c8d5d2159aff0751c84',
+36 silly install resolved        tarball: 'http://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.4.tgz' },
+36 silly install resolved     directories: {},
+36 silly install resolved     _resolved: 'https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.4.tgz',
+36 silly install resolved     readme: 'ERROR: No README data found!' } ]
+37 info install pretty-bytes@1.0.4 into C:\Users\Administrator\Documents\front-end-start
+38 info installOne pretty-bytes@1.0.4
+39 verbose installOne of pretty-bytes to C:\Users\Administrator\Documents\front-end-start not in flight; installing
+40 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\pretty-bytes-09e3f87b0e445e35.lock for C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes
+41 silly install write writing pretty-bytes 1.0.4 to C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes
+42 silly cache addNamed cb pretty-bytes@1.0.4
+43 verbose unbuild node_modules\pretty-bytes
+44 silly gentlyRm C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes is being purged from base C:\Users\Administrator\Documents\front-end-start
+45 verbose gentlyRm don't care about contents; nuking C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes
+46 silly vacuum-fs Error: EPERM, lstat 'C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes'
+46 silly vacuum-fs     at Error (native)
+47 verbose unlock done using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\pretty-bytes-09e3f87b0e445e35.lock for C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes
+48 verbose stack Error: EPERM, lstat 'C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes'
+48 verbose stack     at Error (native)
+49 verbose cwd C:\Users\Administrator\Documents\front-end-start
+50 error Windows_NT 6.1.7601
+51 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "pretty-bytes" "--globa"
+52 error node v0.12.2
+53 error npm  v2.7.4
+54 error path C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes
+55 error code EPERM
+56 error errno -4048
+57 error Error: EPERM, lstat 'C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes'
+57 error     at Error (native)
+57 error  { [Error: EPERM, lstat 'C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes']
+57 error   errno: -4048,
+57 error   code: 'EPERM',
+57 error   path: 'C:\\Users\\Administrator\\Documents\\front-end-start\\node_modules\\pretty-bytes' }
+58 error Please try running this command again as root/Administrator.
+59 verbose exit [ -4048, true ]
+60 verbose unbuild node_modules\pretty-bytes
+61 silly gentlyRm C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes is being purged from base C:\Users\Administrator\Documents\front-end-start
+62 verbose gentlyRm don't care about contents; nuking C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes
+63 silly vacuum-fs Error: EPERM, lstat 'C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes'
+63 silly vacuum-fs     at Error (native)
+64 error error rolling back Error: EPERM, lstat 'C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes'
+64 error error rolling back     at Error (native)
+64 error error rolling back  { [Error: EPERM, lstat 'C:\Users\Administrator\Documents\front-end-start\node_modules\pretty-bytes']
+64 error error rolling back   errno: -4048,
+64 error error rolling back   code: 'EPERM',
+64 error error rolling back   path: 'C:\\Users\\Administrator\\Documents\\front-end-start\\node_modules\\pretty-bytes' }
